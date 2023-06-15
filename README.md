@@ -10,6 +10,6 @@
 - Analyse : recherche et visualisation de co-occurrences
   - Résultats (avec présentés avec [Quarto](https://quarto.org/) : dans notebook.ipynb
   
-- Visualisation complémentaire produite avec [VOSviewer](https://www.vosviewer.com/)
-  - Périmètre : co-occurrences dans les abstracts
-  - url : [https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_6d4639b3039235dc3f26.json](https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_6d4639b3039235dc3f26.json)
+- Visualisations complémentaires produites avec [VOSviewer](https://www.vosviewer.com/)
+  - Co-occurrenecs dans les titres : [https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_f021cee7e492b005ff46.json](https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_f021cee7e492b005ff46.json)
+  - Co-occurrences dans les abstracts : [https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_6d4639b3039235dc3f26.json](https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_6d4639b3039235dc3f26.json)

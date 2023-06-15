@@ -238,75 +238,6 @@ function highlightFilter(filter) {
              }
 
              
-             #loadingBar {
-                 position:absolute;
-                 top:0px;
-                 left:0px;
-                 width: 100%;
-                 height: 750px;
-                 background-color:rgba(200,200,200,0.8);
-                 -webkit-transition: all 0.5s ease;
-                 -moz-transition: all 0.5s ease;
-                 -ms-transition: all 0.5s ease;
-                 -o-transition: all 0.5s ease;
-                 transition: all 0.5s ease;
-                 opacity:1;
-             }
-
-             #bar {
-                 position:absolute;
-                 top:0px;
-                 left:0px;
-                 width:20px;
-                 height:20px;
-                 margin:auto auto auto auto;
-                 border-radius:11px;
-                 border:2px solid rgba(30,30,30,0.05);
-                 background: rgb(0, 173, 246); /* Old browsers */
-                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
-             }
-
-             #border {
-                 position:absolute;
-                 top:10px;
-                 left:10px;
-                 width:500px;
-                 height:23px;
-                 margin:auto auto auto auto;
-                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
-                 border-radius:10px;
-             }
-
-             #text {
-                 position:absolute;
-                 top:8px;
-                 left:530px;
-                 width:30px;
-                 height:50px;
-                 margin:auto auto auto auto;
-                 font-size:22px;
-                 color: #000000;
-             }
-
-             div.outerBorder {
-                 position:relative;
-                 top:400px;
-                 width:600px;
-                 height:44px;
-                 margin:auto auto auto auto;
-                 border:8px solid rgba(0,0,0,0.1);
-                 background: rgb(252,252,252); /* Old browsers */
-                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
-                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
-                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
-                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
-                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
-                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
-                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
-                 border-radius:72px;
-                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-             }
-             
 
              
              #config {
@@ -336,229 +267,9 @@ function highlightFilter(filter) {
                             >
                                 <option selected>Select a Node by ID</option>
                                 
-                                    <option value="nuclear">nuclear</option>
+                                    <option value="(">(</option>
                                 
-                                    <option value="power">power</option>
-                                
-                                    <option value="plant">plant</option>
-                                
-                                    <option value="chernobyl">chernobyl</option>
-                                
-                                    <option value="accident">accident</option>
-                                
-                                    <option value="ionizing">ionizing</option>
-                                
-                                    <option value="radiation">radiation</option>
-                                
-                                    <option value="long">long</option>
-                                
-                                    <option value="term">term</option>
-                                
-                                    <option value="radioactive">radioactive</option>
-                                
-                                    <option value="contamination">contamination</option>
-                                
-                                    <option value="soil">soil</option>
-                                
-                                    <option value="heavy">heavy</option>
-                                
-                                    <option value="metal">metal</option>
-                                
-                                    <option value="low">low</option>
-                                
-                                    <option value="dose">dose</option>
-                                
-                                    <option value="waste">waste</option>
-                                
-                                    <option value="exclusion">exclusion</option>
-                                
-                                    <option value="zone">zone</option>
-                                
-                                    <option value="induced">induced</option>
-                                
-                                    <option value="exposure">exposure</option>
-                                
-                                    <option value="test">test</option>
-                                
-                                    <option value="site">site</option>
-                                
-                                    <option value="fuel">fuel</option>
-                                
-                                    <option value="trace">trace</option>
-                                
-                                    <option value="element">element</option>
-                                
-                                    <option value="rate">rate</option>
-                                
-                                    <option value="natural">natural</option>
-                                
-                                    <option value="radionuclides">radionuclides</option>
-                                
-                                    <option value="risk">risk</option>
-                                
-                                    <option value="assessment">assessment</option>
-                                
-                                    <option value="radioactivity">radioactivity</option>
-                                
-                                    <option value="137cs">137cs</option>
-                                
-                                    <option value="90sr">90sr</option>
-                                
-                                    <option value="marine">marine</option>
-                                
-                                    <option value="environment">environment</option>
-                                
-                                    <option value="activity">activity</option>
-                                
-                                    <option value="concentration">concentration</option>
-                                
-                                    <option value="black">black</option>
-                                
-                                    <option value="sea">sea</option>
-                                
-                                    <option value="gamma">gamma</option>
-                                
-                                    <option value="protection">protection</option>
-                                
-                                    <option value="bottom">bottom</option>
-                                
-                                    <option value="sediment">sediment</option>
-                                
-                                    <option value="transfer">transfer</option>
-                                
-                                    <option value="forest">forest</option>
-                                
-                                    <option value="ecosystem">ecosystem</option>
-                                
-                                    <option value="factor">factor</option>
-                                
-                                    <option value="mass">mass</option>
-                                
-                                    <option value="spectrometry">spectrometry</option>
-                                
-                                    <option value="case">case</option>
-                                
-                                    <option value="study">study</option>
-                                
-                                    <option value="environmental">environmental</option>
-                                
-                                    <option value="sample">sample</option>
-                                
-                                    <option value="food">food</option>
-                                
-                                    <option value="chain">chain</option>
-                                
-                                    <option value="irradiation">irradiation</option>
-                                
-                                    <option value="stem">stem</option>
-                                
-                                    <option value="cell">cell</option>
-                                
-                                    <option value="surface">surface</option>
-                                
-                                    <option value="water">water</option>
-                                
-                                    <option value="ray">ray</option>
-                                
-                                    <option value="artificial">artificial</option>
-                                
-                                    <option value="level">level</option>
-                                
-                                    <option value="effect">effect</option>
-                                
-                                    <option value="fukushima">fukushima</option>
-                                
-                                    <option value="scot">scot</option>
-                                
-                                    <option value="pine">pine</option>
-                                
-                                    <option value="reprocessing">reprocessing</option>
-                                
-                                    <option value="oxidative">oxidative</option>
-                                
-                                    <option value="stress">stress</option>
-                                
-                                    <option value="dna">dna</option>
-                                
-                                    <option value="damage">damage</option>
-                                
-                                    <option value="peripheral">peripheral</option>
-                                
-                                    <option value="blood">blood</option>
-                                
-                                    <option value="inductively">inductively</option>
-                                
-                                    <option value="coupled">coupled</option>
-                                
-                                    <option value="plasma">plasma</option>
-                                
-                                    <option value="fallout">fallout</option>
-                                
-                                    <option value="ionising">ionising</option>
-                                
-                                    <option value="dos">dos</option>
-                                
-                                    <option value="lymphocyte">lymphocyte</option>
-                                
-                                    <option value="daiichi">daiichi</option>
-                                
-                                    <option value="semipalatinsk">semipalatinsk</option>
-                                
-                                    <option value="radionuclide">radionuclide</option>
-                                
-                                    <option value="contaminated">contaminated</option>
-                                
-                                    <option value="ratio">ratio</option>
-                                
-                                    <option value="decision">decision</option>
-                                
-                                    <option value="support">support</option>
-                                
-                                    <option value="yenisei">yenisei</option>
-                                
-                                    <option value="river">river</option>
-                                
-                                    <option value="npp">npp</option>
-                                
-                                    <option value="spent">spent</option>
-                                
-                                    <option value="distribution">distribution</option>
-                                
-                                    <option value="lived">lived</option>
-                                
-                                    <option value="body">body</option>
-                                
-                                    <option value="depleted">depleted</option>
-                                
-                                    <option value="uranium">uranium</option>
-                                
-                                    <option value="dai">dai</option>
-                                
-                                    <option value="ichi">ichi</option>
-                                
-                                    <option value="anthropogenic">anthropogenic</option>
-                                
-                                    <option value="impact">impact</option>
-                                
-                                    <option value="radioactively">radioactively</option>
-                                
-                                    <option value="basin">basin</option>
-                                
-                                    <option value="naturally">naturally</option>
-                                
-                                    <option value="occurring">occurring</option>
-                                
-                                    <option value="half">half</option>
-                                
-                                    <option value="life">life</option>
-                                
-                                    <option value="radiological">radiological</option>
-                                
-                                    <option value="pinus">pinus</option>
-                                
-                                    <option value="sylvestris">sylvestris</option>
-                                
-                                    <option value="explosion">explosion</option>
+                                    <option value="'">'</option>
                                 
                             </select>
                         </div>
@@ -614,15 +325,6 @@ function highlightFilter(filter) {
             <div id="mynetwork" class="card-body"></div>
         </div>
 
-        
-            <div id="loadingBar">
-              <div class="outerBorder">
-                <div id="text">0%</div>
-                <div id="border">
-                  <div id="bar"></div>
-                </div>
-              </div>
-            </div>
         
         
             <div id="config"></div>
@@ -791,8 +493,8 @@ function highlightFilter(filter) {
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#97c2fc", "font": {"color": "white"}, "id": "nuclear", "label": "nuclear", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "power", "label": "power", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "plant", "label": "plant", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "chernobyl", "label": "chernobyl", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "accident", "label": "accident", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "ionizing", "label": "ionizing", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "radiation", "label": "radiation", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "long", "label": "long", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "term", "label": "term", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "radioactive", "label": "radioactive", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "contamination", "label": "contamination", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "soil", "label": "soil", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "heavy", "label": "heavy", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "metal", "label": "metal", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "low", "label": "low", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "dose", "label": "dose", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "waste", "label": "waste", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "exclusion", "label": "exclusion", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "zone", "label": "zone", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "induced", "label": "induced", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "exposure", "label": "exposure", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "test", "label": "test", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "site", "label": "site", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "fuel", "label": "fuel", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "trace", "label": "trace", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "element", "label": "element", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "rate", "label": "rate", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "natural", "label": "natural", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "radionuclides", "label": "radionuclides", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "risk", "label": "risk", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "assessment", "label": "assessment", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "radioactivity", "label": "radioactivity", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "137cs", "label": "137cs", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "90sr", "label": "90sr", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "marine", "label": "marine", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "environment", "label": "environment", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "activity", "label": "activity", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "concentration", "label": "concentration", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "black", "label": "black", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "sea", "label": "sea", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "gamma", "label": "gamma", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "protection", "label": "protection", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "bottom", "label": "bottom", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "sediment", "label": "sediment", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "transfer", "label": "transfer", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "forest", "label": "forest", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "ecosystem", "label": "ecosystem", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "factor", "label": "factor", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "mass", "label": "mass", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "spectrometry", "label": "spectrometry", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "case", "label": "case", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "study", "label": "study", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "environmental", "label": "environmental", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "sample", "label": "sample", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "food", "label": "food", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "chain", "label": "chain", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "irradiation", "label": "irradiation", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "stem", "label": "stem", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "cell", "label": "cell", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "surface", "label": "surface", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "water", "label": "water", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "ray", "label": "ray", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "artificial", "label": "artificial", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "level", "label": "level", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "effect", "label": "effect", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "fukushima", "label": "fukushima", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "scot", "label": "scot", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "pine", "label": "pine", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "reprocessing", "label": "reprocessing", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "oxidative", "label": "oxidative", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "stress", "label": "stress", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "dna", "label": "dna", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "damage", "label": "damage", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "peripheral", "label": "peripheral", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "blood", "label": "blood", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "inductively", "label": "inductively", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "coupled", "label": "coupled", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "plasma", "label": "plasma", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "fallout", "label": "fallout", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "ionising", "label": "ionising", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "dos", "label": "dos", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "lymphocyte", "label": "lymphocyte", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "daiichi", "label": "daiichi", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "semipalatinsk", "label": "semipalatinsk", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "radionuclide", "label": "radionuclide", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "contaminated", "label": "contaminated", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "ratio", "label": "ratio", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "decision", "label": "decision", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "support", "label": "support", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "yenisei", "label": "yenisei", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "river", "label": "river", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "npp", "label": "npp", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "spent", "label": "spent", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "distribution", "label": "distribution", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "lived", "label": "lived", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "body", "label": "body", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "depleted", "label": "depleted", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "uranium", "label": "uranium", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "dai", "label": "dai", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "ichi", "label": "ichi", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "anthropogenic", "label": "anthropogenic", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "impact", "label": "impact", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "radioactively", "label": "radioactively", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "basin", "label": "basin", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "naturally", "label": "naturally", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "occurring", "label": "occurring", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "half", "label": "half", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "life", "label": "life", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "radiological", "label": "radiological", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "pinus", "label": "pinus", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "sylvestris", "label": "sylvestris", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "explosion", "label": "explosion", "shape": "dot"}]);
-                  edges = new vis.DataSet([{"from": "nuclear", "to": "power"}, {"from": "power", "to": "plant"}, {"from": "chernobyl", "to": "accident"}, {"from": "ionizing", "to": "radiation"}, {"from": "long", "to": "term"}, {"from": "radioactive", "to": "contamination"}, {"from": "soil", "to": "plant"}, {"from": "heavy", "to": "metal"}, {"from": "low", "to": "dose"}, {"from": "radioactive", "to": "waste"}, {"from": "exclusion", "to": "zone"}, {"from": "radiation", "to": "induced"}, {"from": "radiation", "to": "exposure"}, {"from": "nuclear", "to": "accident"}, {"from": "test", "to": "site"}, {"from": "nuclear", "to": "fuel"}, {"from": "trace", "to": "element"}, {"from": "dose", "to": "rate"}, {"from": "natural", "to": "radionuclides"}, {"from": "risk", "to": "assessment"}, {"from": "natural", "to": "radioactivity"}, {"from": "chernobyl", "to": "nuclear"}, {"from": "137cs", "to": "90sr"}, {"from": "marine", "to": "environment"}, {"from": "activity", "to": "concentration"}, {"from": "radionuclides", "to": "soil"}, {"from": "black", "to": "sea"}, {"from": "plant", "to": "accident"}, {"from": "chernobyl", "to": "exclusion"}, {"from": "gamma", "to": "radiation"}, {"from": "radiation", "to": "protection"}, {"from": "bottom", "to": "sediment"}, {"from": "plant", "to": "transfer"}, {"from": "forest", "to": "ecosystem"}, {"from": "transfer", "to": "factor"}, {"from": "mass", "to": "spectrometry"}, {"from": "nuclear", "to": "test"}, {"from": "radiation", "to": "dose"}, {"from": "case", "to": "study"}, {"from": "environmental", "to": "sample"}, {"from": "food", "to": "chain"}, {"from": "gamma", "to": "irradiation"}, {"from": "stem", "to": "cell"}, {"from": "surface", "to": "water"}, {"from": "dose", "to": "assessment"}, {"from": "gamma", "to": "ray"}, {"from": "artificial", "to": "radionuclides"}, {"from": "low", "to": "level"}, {"from": "radiation", "to": "effect"}, {"from": "fukushima", "to": "nuclear"}, {"from": "scot", "to": "pine"}, {"from": "effect", "to": "low"}, {"from": "reprocessing", "to": "plant"}, {"from": "oxidative", "to": "stress"}, {"from": "environmental", "to": "radioactivity"}, {"from": "sea", "to": "water"}, {"from": "dna", "to": "damage"}, {"from": "forest", "to": "soil"}, {"from": "peripheral", "to": "blood"}, {"from": "inductively", "to": "coupled"}, {"from": "coupled", "to": "plasma"}, {"from": "chernobyl", "to": "fallout"}, {"from": "ionising", "to": "radiation"}, {"from": "trace", "to": "metal"}, {"from": "radioactive", "to": "trace"}, {"from": "radiation", "to": "dos"}, {"from": "blood", "to": "lymphocyte"}, {"from": "fukushima", "to": "daiichi"}, {"from": "semipalatinsk", "to": "nuclear"}, {"from": "radionuclide", "to": "transfer"}, {"from": "contaminated", "to": "soil"}, {"from": "plasma", "to": "mass"}, {"from": "concentration", "to": "ratio"}, {"from": "decision", "to": "support"}, {"from": "yenisei", "to": "river"}, {"from": "chernobyl", "to": "npp"}, {"from": "nuclear", "to": "waste"}, {"from": "spent", "to": "nuclear"}, {"from": "fuel", "to": "reprocessing"}, {"from": "low", "to": "dos"}, {"from": "distribution", "to": "137cs"}, {"from": "long", "to": "lived"}, {"from": "semipalatinsk", "to": "test"}, {"from": "daiichi", "to": "nuclear"}, {"from": "water", "to": "body"}, {"from": "depleted", "to": "uranium"}, {"from": "transfer", "to": "137cs"}, {"from": "fukushima", "to": "dai"}, {"from": "dai", "to": "ichi"}, {"from": "anthropogenic", "to": "radionuclides"}, {"from": "environmental", "to": "impact"}, {"from": "radioactively", "to": "contaminated"}, {"from": "effect", "to": "ionizing"}, {"from": "river", "to": "basin"}, {"from": "naturally", "to": "occurring"}, {"from": "half", "to": "life"}, {"from": "radiological", "to": "impact"}, {"from": "pinus", "to": "sylvestris"}, {"from": "nuclear", "to": "explosion"}]);
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "font": {"color": "white"}, "id": "(", "label": "(", "shape": "dot", "size": 25}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "\u0027", "label": "\u0027", "shape": "dot"}]);
+                  edges = new vis.DataSet([{"from": "(", "to": "\u0027"}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -865,23 +567,6 @@ function highlightFilter(filter) {
                   
 
 
-                  
-                      network.on("stabilizationProgress", function(params) {
-                          document.getElementById('loadingBar').removeAttribute("style");
-                          var maxWidth = 496;
-                          var minWidth = 20;
-                          var widthFactor = params.iterations/params.total;
-                          var width = Math.max(minWidth,maxWidth * widthFactor);
-                          document.getElementById('bar').style.width = width + 'px';
-                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
-                      });
-                      network.once("stabilizationIterationsDone", function() {
-                          document.getElementById('text').innerHTML = '100%';
-                          document.getElementById('bar').style.width = '496px';
-                          document.getElementById('loadingBar').style.opacity = 0;
-                          // really clean the dom element
-                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
-                      });
                   
 
                   return network;
