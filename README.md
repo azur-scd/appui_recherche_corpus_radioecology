@@ -11,5 +11,5 @@
   - Résultats (avec présentés avec [Quarto](https://quarto.org/) : dans notebook.ipynb
   
 - Visualisations complémentaires produites avec [VOSviewer](https://www.vosviewer.com/)
-  - Co-occurrenecs dans les titres : [https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_f021cee7e492b005ff46.json](https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_f021cee7e492b005ff46.json)
-  - Co-occurrences dans les abstracts : [https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_6d4639b3039235dc3f26.json](https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_6d4639b3039235dc3f26.json)
+  - Co-occurrenecs dans les titres : [https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_f4ce2da83594d3435b51.json](https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_f4ce2da83594d3435b51.json)
+  - Co-occurrences dans les abstracts : [https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_f45fd7b693812689ecba.json](https://nocodefunctions.com/html/vosviewer/index.html?json=data/public/vosviewer_f45fd7b693812689ecba.json)
